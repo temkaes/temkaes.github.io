@@ -72,6 +72,11 @@ input {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s
 }
+
+.normal-href {
+	text-decoration:normal;
+	color:inherit;
+}
 button{border: 0}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: inherit}
 label {
@@ -575,7 +580,7 @@ textarea:focus {box-shadow: none; outline: 0}
 }
 .section-title > h2 {
     font-family: "Montserrat",sans-serif;
-    line-height: 22px;
+    line-height: normal;
     margin-bottom: 18px;
     text-transform: uppercase;
     font-weight: 600;
