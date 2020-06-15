@@ -1156,7 +1156,7 @@ h3.sub-title:after {
     line-height: 14px;
     margin-bottom: 39px;
 }
-.contact-area #contact-form input, .contact-area #contact-form textarea {
+.contact-area .contact-form input, .contact-area .contact-form textarea {
     color: #666666;
     font-size: 12px;
     font-weight: 300;
@@ -1164,18 +1164,18 @@ h3.sub-title:after {
     margin-bottom: 30px;
     padding: 0 20px;
 }
-.contact-area #contact-form textarea {
+.contact-area .contact-form textarea {
     height: 153px;
     padding: 10px 20px;
     margin-bottom: 40px
 }
-.contact-area #contact-form input::-moz-placeholder, .contact-area #contact-form textarea::-moz-placeholder {
+.contact-area .contact-form input::-moz-placeholder, .contact-area #contact-form textarea::-moz-placeholder {
     color: #666666;
 } 
-.contact-area #contact-form input::-webkit-input-placeholder, .contact-area #contact-form textarea::-webkit-input-placeholder {
+.contact-area .contact-form input::-webkit-input-placeholder, .contact-area #contact-form textarea::-webkit-input-placeholder {
     color: #666666;
 }
-.contact-area #contact-form button {
+.contact-area .contact-form button {
     border-radius: 0;
     padding: 13px 65px;
 }
