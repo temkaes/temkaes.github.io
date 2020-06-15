@@ -277,29 +277,28 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="consultation-form">
                             <h3 class="sub-title">Request more information</h3>
-                            <form id="contact-form" action="https://formspree.io/mrgbpneo" method="POST">
+                            <form action="https://formspree.io/mrgbpneo" method="POST">
                             	<div class="row consult-custom-row">
-                                    <div class="col-md-6">
-                                        <div class="form-box">
-  											<input type="text" placeholder="Name*" name="name">
-  										</div>
-  									</div>
-  									
-  									<div class="col-md-6">
-                                        <div class="form-box">
-  											<input type="email" placeholder="Email*" name="_replyto">
-  										</div>
-  									</div>
-  								</div>
-  								<div class="row">
+                            	    <div class="col-md-6">
+                            	    	<div class="form-box">
+            								<input class="input-text" type="text" name="name" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            							</div>
+            						</div>
+            						<div class="col-md-6">
+                            	    	<div class="form-box">
+            								<input class="input-text" type="text" name="email" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            							</div>
+            						</div>
+            					</div>
+            					<div class="row">
                                     <div class="col-md-12">
                                         <div class="form-box">
-                                        	<textarea name="message" placeholder="Message*"></textarea>
-  											<button type="submit" class="default-btn" value="Send"><span>SEND</span></button>
-  										</div>
-  									</div>
-  								</div>
-							</form>
+            								<textarea class="input-text text-area" name="message" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+           									<button class="default-btn" type="submit" value="send message"><span>SEND</span></button>
+         								</div>
+         							</div>
+         						</div>
+          					</form>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
