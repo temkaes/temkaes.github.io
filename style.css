@@ -678,7 +678,7 @@ h3.sub-title:after {
 
 .certificate-area h2 {
     font-weight: 600;
-    line-height: 22px;
+    line-height: normal;
     margin-bottom: 35px;
     text-transform: uppercase;
     text-align:center;
@@ -691,7 +691,7 @@ h3.sub-title:after {
 
 .our-customers-area h2 {
     font-weight: 600;
-    line-height: 22px;
+    line-height: normal;
     margin-bottom: 35px;
     text-transform: uppercase;
 }
@@ -702,7 +702,7 @@ h3.sub-title:after {
 
 .chart-area h2 {
     font-weight: 600;
-    line-height: 22px;
+    line-height: normal;
     margin-bottom: 35px;
     text-transform: uppercase;
     text-align:center;
@@ -729,7 +729,7 @@ h3.sub-title:after {
 
 .marine-services-area h2 {
     font-weight: 600;
-    line-height: 22px;
+    line-height: normal;
     margin-bottom: 35px;
     text-transform: uppercase;
     text-align:center;
